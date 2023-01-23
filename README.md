@@ -16,3 +16,5 @@
     * Spotify-Developer
 * **Back-End**
     * Firebase
+* **Deployment**
+    * Vercel
