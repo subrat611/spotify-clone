@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 import style from "./rootpage.module.css";
 
@@ -12,8 +12,12 @@ function RootPage() {
         <span className={style.logo__title}>Spotify</span>
       </div>
       <div className={style.btn_container}>
-        <button className="btn btn--signup">SIGN UP</button>
-        <button className="btn btn--login">LOG IN</button>
+        <Link to="/signup">
+          <button className="btn btn--signup">SIGN UP</button>
+        </Link>
+        <Link to="/login">
+          <button className="btn btn--login">LOG IN</button>
+        </Link>
       </div>
     </div>
   );
