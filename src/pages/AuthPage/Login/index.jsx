@@ -12,11 +12,15 @@ export default function Login() {
       </div>
       <div className={styles.input__form}>
         <div className={styles.input__email}>
-          <label htmlFor="InputEmail">Email address</label>
+          <label htmlFor="InputEmail" className={styles.field__label}>
+            Email address
+          </label>
           <input id="InputEmail" type="email" placeholder="Email address" />
         </div>
         <div className={styles.input__passwd}>
-          <label htmlFor="InputPasswd">Password</label>
+          <label htmlFor="InputPasswd" className={styles.field__label}>
+            Password
+          </label>
           <input id="InputPasswd" placeholder="Password" type="password" />
         </div>
         <div className={styles.login__controller__btn}>
