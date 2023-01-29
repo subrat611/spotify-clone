@@ -1,0 +1,79 @@
+.signupContainer {
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+}
+
+.logo__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input__form {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 7px;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+}
+
+.input__email,
+.input__confirmEmail,
+.input__passwd,
+.input__profilename,
+.input__gender {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.field__label,
+.radio__label {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    padding: 0.9rem 0.5rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.radio__field__container {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.radio__label {
+    margin: 0 0.5rem;
+}
+
+.signup__controller__btn {
+    margin: 1rem 0;
+}
+
+.btn__signup {
+    margin: 0 !important;
+}
+
+
+@media all and (max-width: 500px) {
+    .input__form {
+        margin: 2rem 1rem 0 1rem;
+    }
+}
